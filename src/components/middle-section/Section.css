@@ -46,12 +46,14 @@
 }
 @media (max-width:1295px) {
     .text-2 h1 {
-        font-size: 30px;
+        font-size: 2rem;
         transition: 0.3s;
     }
     .text-2 p {
-        font-size: 11px;
+        font-size: 15px;
         transition: 0.3s;
+        line-height: 25px;
+
     }
     .second-element img {
         max-width: 100%;
