@@ -5,6 +5,7 @@ import Header from './components/header/Header.jsx'
 import Hero from './components/hero/Hero.jsx'
 import Footer from './components/footer/Footer.jsx'
 import MiddleSection from './components/middle-section/MiddleSection.jsx'
+import Methods from './components/methods/Methods.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -12,7 +13,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar />
     <Hero />
     <Header />
+    <MiddleSection />  
+    <Methods />
     <Footer />
-    <MiddleSection />
   </React.StrictMode>,
 )
