@@ -5,9 +5,9 @@ function Hero() {
   return (
     <section className="main">
       <div className="text">
-        <h1>We Collect <br /> High Quality Leads</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br />
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />
+        <h1>We Collect High Quality Leads</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Quis ipsum suspendisse ultrices gravi.</p>
         <a href="/" className="btn">Contact us</a>
       </div>
