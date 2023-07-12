@@ -1,7 +1,8 @@
+import './FooterStyle.css'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <h1>test</h1>
   )
 }
 

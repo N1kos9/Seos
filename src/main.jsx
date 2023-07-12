@@ -6,6 +6,9 @@ import Hero from './components/hero/Hero.jsx'
 import Footer from './components/footer/Footer.jsx'
 import MiddleSection from './components/middle-section/MiddleSection.jsx'
 import Methods from './components/methods/Methods.jsx'
+import Plans from './components/plans/Plans.jsx'
+import Examples from './components/examples/Examples.jsx'
+import Review from './components/review/Review.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -15,6 +18,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Header />
     <MiddleSection />  
     <Methods />
+    <Plans />
+    <Examples />
+    <Review />
     <Footer />
   </React.StrictMode>,
 )

@@ -1,0 +1,85 @@
+.testimonial-area {
+    margin-top: 10rem;
+    /* height: 100vh; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.profile {
+    display: flex;
+        text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.quote-item-1 {
+    position: relative;
+
+}
+.review-title {
+    font-size: 3rem;
+    color: var(--text-color);
+    line-height: normal;
+    transition: .42s;
+
+}
+.quote-img {
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    z-index: 1;
+    left: 0px;
+    top: 0;
+    transform: scaleY(-1) scaleX(-1);
+}
+.whole-profile {
+    padding-top: 5rem;
+    padding: 6rem 6%;
+    position: relative;
+    transition: .42s;
+
+}
+.whole-profile p {
+    opacity: 0.7;
+    line-height: 1.7;
+    font-style: italic;
+}
+.quote-img-2 {
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    z-index: 1;
+    right: 0;
+    bottom: 100px;
+}
+.profile-text {
+    padding: 1rem;
+}
+.profile-text h4 {
+    color: var(--text-color);
+}
+.profile-text p {
+    font-style: normal;
+    font-weight: 500;
+    transition: .42s;
+
+}
+@media(max-width: 900px ) {
+    .quote {
+        display: none;
+    }
+}
+@media(max-width: 950px) {
+    .review-title {
+        font-size: 2rem;
+
+    }
+    .whole-profile p {
+        font-size: 12px;
+    }
+    .whole-profile {
+        padding: 4rem;
+    }
+}

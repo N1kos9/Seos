@@ -1,0 +1,75 @@
+.section-4 {
+    /* height: 100vh; */
+    align-items: center;
+    background-image: url('/wallpaper-3.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+}
+.list-items-2 {
+    display: flex;
+    gap: 2rem;
+    transition: .42s;
+}
+
+    
+.list-item-2, .plan-1, .plan-2, .plan-3 {
+    margin-top: 3rem;
+    padding: 5rem;
+    text-align: center;
+    border-radius: 5px;
+    transition: .42s;
+}
+.plan-1 {
+    border: 1px solid rgba(0, 0, 0, 0.062);
+
+}
+.plan-1:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.151);
+
+}
+.plan-2 {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.151);
+
+}
+.plan-3 {
+    border: 1px solid rgba(0, 0, 0, 0.062);
+
+}
+.plan-3:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.151);
+
+}
+.list-item-2, p {
+    opacity: 0.7;
+    line-height: 2.2;
+}
+.list-items-2 h1 {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.plan-title {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--text-color);
+    line-height: normal;
+    transition: .42s;
+
+}
+.all-in-one {
+    margin: auto 0;
+}
+@media (max-width: 1033px) { 
+
+    .list-items-2 {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .plan-title {
+        font-size: 2rem;
+        margin-top: 10rem;
+    } 
+}
