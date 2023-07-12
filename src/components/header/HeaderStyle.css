@@ -1,5 +1,4 @@
 
-
 .main-2 .title {
     color: var(--text-color);
     font-size: 3rem;
@@ -24,7 +23,7 @@
 }
 .item-1, .item-2, .item-3 {
     text-align: center;
-     padding: 40px;
+     padding: 50px;
      transition: all .42s;
 
 }

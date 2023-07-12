@@ -1,0 +1,26 @@
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        gap: 1rem;
+}
+.main-text-tips {
+    font-size: 3rem;
+
+}
+.main-text-tips-area {
+    display: flex;
+    justify-content: center;
+
+}
+
+.tips {
+    display: flex;
+    gap: 1rem;
+}
+@media(max-width: 1200px) {
+    .tips {
+        flex-direction: column;
+    }
+}

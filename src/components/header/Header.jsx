@@ -3,6 +3,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 function Header() {
   return (
+    <section>
     <div className="main-2">
       <div className='header-main-text-position'>
       <h1 className='title'>What We Will Do For Your Business</h1>
@@ -34,6 +35,7 @@ function Header() {
         </div>
       </div>
     </div>
+    </section>
   )
 }
 

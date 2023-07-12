@@ -39,6 +39,7 @@
     padding: 6rem 6%;
     position: relative;
     transition: .42s;
+    padding: 0 15%;
 
 }
 .review-main-text-position {
@@ -73,6 +74,13 @@
 @media(max-width: 900px ) {
     .quote {
         display: none;
+    }
+    .testimonial-area {
+        padding: 0 5%;
+    }
+    .whole-profile {
+        border: 1px solid rgba(0, 0, 0, 0.185);
+        border-radius: 5px;
     }
 }
 @media(max-width: 950px) {
