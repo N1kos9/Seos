@@ -4,8 +4,9 @@ function Review() {
   return (
     <main className='testimonial-area'>
         <div className='quote-item-1'>
-        <h1 className='review-title'>What Client Say <br /> About Us</h1>
-        
+          <div className='review-main-text-position'>
+        <h1 className='review-title'>What Client Say About Us</h1>
+          </div>
         </div>
         <div className='whole-profile'>
         <img className='quote-img quote' src="/quote.png" alt="" />

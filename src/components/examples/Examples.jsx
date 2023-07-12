@@ -4,7 +4,7 @@ function Examples() {
   return (<>
   
     <main className='main-examples'>
-        <h1 className='examples-title'>Visit Some Of Our <br /> Awsome Stuffs</h1>
+        <h1 className='examples-title'>Visit Some Of Our Awsome Stuffs</h1>
         <div className='exampless'>
             <div className='example-1'>
                 <img src="/example-4.webp" alt="" />

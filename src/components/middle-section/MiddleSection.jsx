@@ -7,11 +7,11 @@ function MiddleSection() {
         <img src="/item-2.svg" alt="" />
       </div>
       <div className='text-2'>
-        <h1>We Create a Steps to <br /> Build a Successful <br /> Digital Product</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br />
-         eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />
-          Quis ipsum suspendisse ultrices gravida. Risus commodo viverra <br />
-          maecenas accumsan lacus vel facilisis orem ipsum dolor sit <br />
+        <h1>We Create a Steps to Build a Successful Digital Product</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+         eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+          maecenas accumsan lacus vel facilisis orem ipsum dolor sit
           amet, consectetur adipiscing.</p>
           <a href="/">Contact Us</a>
       </div>

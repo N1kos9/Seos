@@ -4,6 +4,17 @@
     color: var(--text-color);
     font-size: 3rem;
     text-align: center;
+    width: 100%;
+    max-width: 700px;
+}
+.list-of-items p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.header-main-text-position {
+    justify-content: center;
+    display: flex;
 }
 .main-2 .list-of-items {
     display: flex;
@@ -33,7 +44,7 @@
 }
 .main-2 p {
         opacity: 0.7;
-
+        width: 100%;
 }
 .main-2 a {
     line-height: 100px;

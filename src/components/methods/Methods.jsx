@@ -3,7 +3,9 @@ import './MethodsStyle.css'
 function Methods() {
   return ( <>
     <section className='section-3'>
-      <h1 className='main-text-2'>Generating New Customers <br /> Via Online Mode​​</h1>
+      <div className='main-text-position'>
+      <h1 className='main-text-2'>Generating New Customers Via Online Mode​​</h1>
+      </div>
       <div className='solutions'>
         <div className='solution-1'>
           <div className='icon icon-1'>
