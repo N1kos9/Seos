@@ -12,6 +12,7 @@
     --text-color: #2b4b80;
     --btn-color: #ff5c97;
     --img-gradient: -webkit-linear-gradient(0deg, #ff5c98 0%, #7b40c0 100%);
+    --second-color-btn: #7b40c0;
 }
 body {
     height: 200vh;
