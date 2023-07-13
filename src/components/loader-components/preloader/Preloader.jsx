@@ -11,8 +11,8 @@ function Preloader() {
   return (<>
   <div className="preloader">
     <div className="texts-container">
-      <span>Welcome,</span>
-      <span>To,</span>
+      <span>Welcome</span>
+      <span>To</span>
       <span>Seos.</span>
     </div>
   </div>
