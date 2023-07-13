@@ -4,23 +4,62 @@
     align-items: center;
     justify-content: center;
         gap: 1rem;
+        margin-top: 5rem;
+    background-image: url('/fragment-3.webp');
+    background-position: left;
+    background-repeat: no-repeat;
 }
 .main-text-tips {
     font-size: 3rem;
-
+    width: 100%;
+    max-width: 600px;
+    line-height: normal;
+    color: var(--text-color);
+    margin-bottom: 2rem;
 }
+
 .main-text-tips-area {
     display: flex;
     justify-content: center;
+    text-align: center;
 
 }
 
 .tips {
     display: flex;
     gap: 1rem;
+    line-height: normal;
+}
+.tips h1 {
+    line-height: normal;
+    color: var(--text-color);
+    transition: .42s;
+    cursor: pointer;
+}
+.tips h1:hover {
+    color: var(--btn-color);
+}
+.tips img {
+    width: 100%;
+}
+.continue{
+    padding-top: 1rem;
+}
+.date {
+    color: var(--btn-color);
+}
+.continue .date{
+    color: var(--text-color);
 }
 @media(max-width: 1200px) {
     .tips {
         flex-direction: column;
+        text-align: center;
+        gap: 5rem;
+    }
+}
+@media (max-width:1055px) {
+    .main-text-tips {
+        font-size: 2rem;
     }
 }

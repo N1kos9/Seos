@@ -1,6 +1,6 @@
 .testimonial-area {
     margin-top: 10rem;
-    /* height: 100vh; */
+    height: 50vh;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -12,11 +12,7 @@
         text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
-}
-.quote-item-1 {
-    position: relative;
-
+    padding: 1rem;
 }
 .review-title {
     font-size: 3rem;
@@ -35,11 +31,9 @@
     transform: scaleY(-1) scaleX(-1);
 }
 .whole-profile {
-    padding-top: 5rem;
-    padding: 6rem 6%;
     position: relative;
     transition: .42s;
-    padding: 0 15%;
+    padding: 1rem 15%;
 
 }
 .review-main-text-position {
@@ -80,12 +74,13 @@
     }
     .whole-profile {
         border: 1px solid rgba(0, 0, 0, 0.185);
-        border-radius: 5px;
+        border-radius: 5px;    
     }
 }
 @media(max-width: 950px) {
     .review-title {
         font-size: 2rem;
+        margin-bottom: 3rem;
 
     }
     .whole-profile p {
@@ -93,5 +88,10 @@
     }
     .whole-profile {
         padding: 4rem;
+    }
+}
+@media(max-width: 500px) {
+    .whole-profile {
+        padding: 2rem;
     }
 }

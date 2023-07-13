@@ -1,0 +1,78 @@
+.footer-section {
+    background-image: url('/footer-img.webp');
+}
+.footer-columns {
+    display: flex;
+    gap: 6rem;
+    padding-top: 10%;
+}
+@media(max-width:900px) {
+    .footer-columns {
+        margin-top: 5rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .social-icons{
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+    }
+}
+.end-logo {
+    cursor: pointer;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    padding-top: 2rem;
+}
+.footer-item h2 {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
+.footer-item p {
+    line-height: 2.3;
+    cursor: pointer;
+    transition: .42s;
+}
+.footer-item p:hover {
+    color: var(--btn-color);
+    transform: translateX(5px);
+}
+.start {
+    margin-top: 1rem;
+}
+.social-icons img {
+        width: 100%;
+    max-width: 30px;
+    background-color: rgba(0, 0, 0, 0.041);
+    padding: 0.5rem;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: .42s;
+}
+.social-icons img:hover {
+    background-color: var(--btn-color);
+    opacity: 1.0;
+}
+.signature {
+    text-align: center;
+    margin-top: 4rem;
+    font-weight: 500;
+}
+.signature span {
+    font-size: 2rem;
+    background: -webkit-linear-gradient(0deg, #ff5c98 0%, #7b40c0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.addres-1 {
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 16px;
+}
+/*    color: linear-gradient(0deg, #ff5c98 0%, #7b40c0 100%);
+ */
