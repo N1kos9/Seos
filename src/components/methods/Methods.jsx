@@ -13,7 +13,7 @@ function Methods() {
       <h1 className='main-text-2'>Generating New Customers Via Online Mode​​</h1>
       </div>
       <div className='solutions'>
-        <div className='solution-1' data-aos='fade-right'>
+        <div className='solution-1' data-aos='fade-up'>
           <div className='icon icon-1'>
             <img src="/chart.png" alt="" />
           </div>
@@ -22,7 +22,7 @@ function Methods() {
           <p>Seddo eiusmod tempor incididunt labore lore magna aliqua uisipsum suspendis incididun se ultrices gravida.</p>
           </div>
         </div>
-        <div className='solution-2' data-aos='fade-left'>
+        <div className='solution-2' data-aos='fade-down'>
           <div className='icon icon-2'>
             <img src="/social-media.png" alt="" />
           </div>
@@ -31,7 +31,7 @@ function Methods() {
           <p>Seddo eiusmod tempor incididunt labore lore magna aliqua uisipsum suspendis incididun se ultrices gravida.</p>
           </div>
         </div>
-        <div className='solution-3' data-aos='fade-right'>
+        <div className='solution-3' data-aos='fade-up'>
           <div className='icon icon-3'>
             <img src="/speaker.png" alt="" />
           </div>
@@ -40,7 +40,7 @@ function Methods() {
           <p>Seddo eiusmod tempor incididunt labore lore magna aliqua uisipsum suspendis incididun se ultrices gravida.</p>
          </div>
         </div>
-        <div className='solution-4' data-aos='fade-left'>
+        <div className='solution-4' data-aos='fade-down'>
           <div className='icon icon-4'>
             <img src="/growth.png" alt="" />
           </div>

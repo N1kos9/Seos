@@ -9,10 +9,10 @@ function MiddleSection() {
   }, []);
   return (
     <section className="section-1">
-      <div className="second-element" data-aos='fade-down-right'>
+      <div className="second-element" data-aos='fade-down'>
         <img src="/item-2.svg" alt="" />
       </div>
-      <div className='text-2' data-aos='fade-up-left'>
+      <div className='text-2' data-aos='fade-up'>
         <h1>We Create a Steps to Build a Successful Digital Product</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
          eiusmod tempor incididunt ut labore et dolore magna aliqua.
