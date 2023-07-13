@@ -11,12 +11,10 @@ import Examples from './components/examples/Examples.jsx'
 import Review from './components/review/Review.jsx'
 import Tips from './components/tips/Tips.jsx'
 import Contact from './components/contact-us/Contact.jsx'
-import Loader from './components/loader-components/Loader.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Loader />
     <Navbar />
     <Hero />
     <Header />
